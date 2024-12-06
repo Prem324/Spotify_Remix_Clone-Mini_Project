@@ -1,0 +1,128 @@
+.navbar-mobile-container {
+  padding: 16px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #040306;
+  width: 100%;
+}
+.link-item {
+  text-decoration: none;
+}
+.navbar-mobile-logo {
+  width: 74px;
+  height: 36px;
+}
+.menu-icon-mobile {
+  font-size: 30px;
+  background: transparent;
+  border: none;
+  color: #9b9b9b;
+  cursor: pointer;
+}
+.navbar-container {
+  background-color: #040306;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  width: 100px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar-logo {
+  width: 82px;
+  height: 30px;
+}
+.app-title {
+  font-family: Bree Serif;
+  text-decoration: none;
+  color: #6158d6;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.logout-button {
+  font-size: 12px;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.logout-icon {
+  font-size: 30px;
+}
+
+.menu-button {
+  background: transparent;
+  border: none;
+}
+.menu-popup-card {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #ffffff;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-right: 20px;
+  align-self: center;
+  width: 100px;
+  border-radius: 4px;
+}
+
+.menu-popup-card button {
+  margin-bottom: 10px;
+}
+
+.logout-card {
+  align-self: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  position: relative;
+  font-weight: 600;
+}
+
+.confirm-button {
+  color: #ffffff;
+  background-color: rgb(23, 211, 23);
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 50px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.cancel-button {
+  background-color: rgb(173, 168, 168);
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-mobile-container {
+    display: none;
+  }
+}

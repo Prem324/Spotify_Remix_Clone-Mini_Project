@@ -1,0 +1,44 @@
+.new-releases-item {
+  margin: 5px 10px 5px 10px;
+  width: 100px;
+  height: 160px;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.new-releases-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-releases-item-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.new-releases-item-name {
+  color: #f8fafc;
+  font-size: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .new-releases-item {
+    margin: 0px 30px 20px 0px;
+    width: 150px;
+    height: 200px;
+  }
+  .new-releases-item-name {
+    font-size: 14px;
+  }
+  .new-releases-item-image {
+    width: 150px;
+    height: 150px;
+  }
+}

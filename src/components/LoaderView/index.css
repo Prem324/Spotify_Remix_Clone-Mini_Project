@@ -1,0 +1,19 @@
+.loading-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.loading-view-image {
+  width: 148px;
+  height: 62px;
+}
+
+.loading-view-text {
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
