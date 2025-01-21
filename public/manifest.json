@@ -1,19 +1,19 @@
 {
-  "short_name": "app_short_name",
-  "name": "App_name",
+  "short_name": "Spotify Remix",
+  "name": "Spotify Remix",
   "icons": [
     {
-      "src": "img/favicon.ico",
+      "src": "https://res.cloudinary.com/dlakv8a0n/image/upload/v1729151434/SpotifyRemix/music-icon-4x.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "img/logo192.png",
+      "src": "https://res.cloudinary.com/dlakv8a0n/image/upload/v1729151434/SpotifyRemix/music-icon-4x.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "img/logo512.png",
+      "src": "https://res.cloudinary.com/dlakv8a0n/image/upload/v1729151434/SpotifyRemix/music-icon-4x.png",
       "type": "image/png",
       "sizes": "512x512"
     }

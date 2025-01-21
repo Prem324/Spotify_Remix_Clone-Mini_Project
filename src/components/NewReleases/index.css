@@ -21,6 +21,10 @@
   border-radius: 8px;
 }
 
+.new-releases-item-image:hover {
+  border: 2px solid #ffffff;
+}
+
 .new-releases-item-name {
   color: #f8fafc;
   font-size: 10px;

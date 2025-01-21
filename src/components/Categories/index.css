@@ -21,6 +21,10 @@
   border-radius: 8px;
 }
 
+.genres-moods-item-image:hover {
+  border: 2px solid #ffffff;
+}
+
 .genres-moods-item-name {
   color: #f8fafc;
   font-size: 10px;
